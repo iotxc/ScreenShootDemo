@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xc.screenshootdemo.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="activity截图"
+        android:textAllCaps="false"
+        android:onClick="jumpActivityOnclick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="scrollview截图"
+        android:textAllCaps="false"
+        android:onClick="jumpScrollViewOnclick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="listview截图"
+        android:textAllCaps="false"
+        android:onClick="jumpListViewOnclick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="recycleview截图"
+        android:textAllCaps="false"
+        android:onClick="jumpRecycleviewOnclick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="画中画"
+        android:textAllCaps="false"
+        android:onClick="jumpPIPOnclick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="后台截图"
+        android:textAllCaps="false"
+        android:onClick="jumpBackGroundOnclick"/>
+
+</LinearLayout>
